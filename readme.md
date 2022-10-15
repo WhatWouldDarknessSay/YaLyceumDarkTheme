@@ -10,12 +10,8 @@
 ### 5. Убеждаемся что расширение включено, если нет, включаем
 ![guideimage3](guidelines/guide3.png?raw=true)
 ### 6. Переходим в lms и наслаждаемся кровью из глаз. Темная тема активна всегда, когда включено расширение
-<details>
-    <summary>Скрины</summary>
-
-    ![scr1](screenshots/screenshot1.jpg?raw=true)
-    ![scr2](screenshots/screenshot2.jpg?raw=true)
-    ![scr3](screenshots/screenshot3.jpg?raw=true)
-    ![scr4](screenshots/screenshot4.jpg?raw=true)
-
-</details>
+##Скрины
+![scr1](screenshots/screenshot1.jpg?raw=true)
+![scr2](screenshots/screenshot2.jpg?raw=true)
+![scr3](screenshots/screenshot3.jpg?raw=true)
+![scr4](screenshots/screenshot4.jpg?raw=true)
