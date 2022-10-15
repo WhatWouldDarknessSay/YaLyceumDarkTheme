@@ -1,0 +1,23 @@
+{
+    "short_name": "YAL Dark",
+    "name": "Yandex Lyceum Dark Mode",
+    "content_scripts": [
+      {
+        "matches": ["https://lyceum.yandex.ru/*"],
+        "css" : ["dark_mode.css"]
+      }
+    ],
+    "icons": {
+        "16": "icons/ico16.png",
+        "48": "icons/ico48.png",
+        "128": "icons/ico128.png"
+    },
+    "permissions": [
+      "https://lyceum.yandex.ru/*"
+    ],
+    "manifest_version": 2,
+    "browser_action": {
+      "default_title": "LyceumDark"
+    },
+    "version": "1.0"
+  }
