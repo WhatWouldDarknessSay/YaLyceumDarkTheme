@@ -64,6 +64,7 @@ body{
 }
 /* statuscolors */
 :root{
+    --color-status-active: #63c1ff !important;
     --color-indicator-dot-red: #f85149 !important;
     --color-indicator-red: #f85149  !important;
     --color-header-rework:  #f85149 !important;
