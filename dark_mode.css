@@ -1,48 +1,33 @@
+/* main interface */
 body{
     background: #1e1e1e !important; 
     color: #babbbb !important;
-    scrollbar-color: #424242 #7b7b7b !important;
-    scrollbar-arrow-color: #7b7b7b !important;
 }
 :root{
+    color-scheme: dark !important;
     --color-text-heading:  white !important;
-    --color-link: #fff !important;
-    /* --color-link-hover: #007acc !important; */
     --color-text-main: #999 !important;
     --color-text-invert: #a1a1a1 !important;
     --color-background-main: #323233 !important;
     --color-text-control: #fff !important;
     --color-control-hover: #2a2d2e !important;
-    --color-background-panel: #323233 !important;
-    --color-comments-own-background: #2a4b8d !important;
-    --color-indicator-dot-red: #b60000 !important;
-    --color-indicator-red: #b60000  !important;
-    --color-header-rework:  #7e2929 !important;
-    --color-header-accepted: #208020 !important;
-    --color-separator: #585858 !important;
-    --color-comments-form-background: #191919 !important;
-    --color-filter-clear-label-background: #242424 !important;
-    --color-ticker: #007acc !important;
+    --color-background-panel: #1c1c1c !important;
+    --yandex-mssngr-widget-loader-background-color: #323232;
 }
-.Accordion{
-    border: 1px solid var(--color-separator) !important;
-}
-.Accordion-Item {
-    border-top: 1px solid var(--color-separator) !important;
-}
-.Accordion-Group:not(:last-of-type) .Accordion-Item:last-of-type {
-    border-bottom-color: var(--color-separator) !important;
-}
+
 .Theme_color_platform-blue {
     --color-link: #fff !important;
     --color-link-hover: #007acc !important;
 }
-.CodeMirror-gutters {
-    border-right: 1px solid #585858 !important;
+
+.icon {
+    filter: brightness(100) !important;
 }
-.code-editor__controls {
-    border-bottom: 1px solid #585858 !important;
+
+.Link_view_lyceum.Link_theme_normal {
+    color: white !important;
 }
+/*header*/
 .logo_lang_ru{
     filter: invert(1) !important;
 }
@@ -67,42 +52,112 @@ body{
 .icon_type_signal-outline.icon_size_l{
     filter: invert(1) !important;
 }
-.icon {
-    filter: brightness(100) !important;
+/* accordion fix*/
+.Accordion{
+    border: 1px solid var(--color-separator) !important;
 }
+.Accordion-Item {
+    border-top: 1px solid var(--color-separator) !important;
+}
+.Accordion-Group:not(:last-of-type) .Accordion-Item:last-of-type {
+    border-bottom-color: var(--color-separator) !important;
+}
+/* statuscolors */
+:root{
+    --color-indicator-dot-red: #f85149 !important;
+    --color-indicator-red: #f85149  !important;
+    --color-header-rework:  #f85149 !important;
+    --color-status-redo: #f85149 !important;
+
+    --color-header-accepted: #3fb950 !important;
+    --color-indicator-dark-green: #3fb950 !important;
+    --color-text-positive: #3fb950 !important;
+    --color-indicator-green: #32c3b0 !important;
+    --color-status-ok: #3fb950 !important;
+}
+.progress-bar__fill{
+    background-color: #3fb950 !important;
+}
+.indicator_color_grey {
+    background: rgb(60 60 60) !important;
+}
+/* problem solving page */
+:root{
+    --color-separator: #585858 !important;
+}
+.CodeMirror-gutters {
+    border-right: 1px solid #585858 !important;
+}
+.code-editor__controls {
+    border-bottom: 1px solid #585858 !important;
+}
+.CodeMirror-scrollbar-filler {
+    background-color: #1c1c1c !important;
+}
+
+/* CODE EDITOR */
+
+.CodeMirror-code {
+    outline: none;
+    color: white !important;
+    /* filter: brightness(2) !important; */
+}
+.cm-comment{
+    color: #6a9955 !important;
+}
+.cm-keyword{
+    color: #c586c0 !important;
+}
+.cm-builtin{
+    color: #d0dcaa !important;
+}
+.cm-string{
+    color: #ce9178 !important;
+}
+.cm-number{
+    color: #b5cea8 !important;
+}
+.cm-variable-2{
+    color: #6596c7 !important;
+}
+.cm-def{
+    color: #dcd184 !important;
+}
+/* /buttons */
 span.icon.icon_type_upload.icon_size_m {
     filter: brightness(100) !important;
 }
 .Button2{
-    filter: invert(0.9) !important;
+    filter: invert(0.9) !important;   
 }
-.CodeMirror-code {
-    outline: none;
-    color: white !important;
-    filter: brightness(2) !important;
-}
+/* /status-viewer */
 .submission-header-viewer_status_accepted-after-deadline .submission-header-viewer__date, .submission-header-viewer_status_accepted-after-deadline .submission-header-viewer__id, .submission-header-viewer_status_accepted .submission-header-viewer__date, .submission-header-viewer_status_accepted .submission-header-viewer__id, .submission-header-viewer_status_rework .submission-header-viewer__date, .submission-header-viewer_status_rework .submission-header-viewer__id {
     color: white !important;
 }
 .solution-status-viewer_status_accepted-after-deadline .solution-status-viewer__status-text, .solution-status-viewer_status_accepted-after-deadline .solution-status-viewer__updated-at, .solution-status-viewer_status_accepted .solution-status-viewer__status-text, .solution-status-viewer_status_accepted .solution-status-viewer__updated-at, .solution-status-viewer_status_rework .solution-status-viewer__status-text, .solution-status-viewer_status_rework .solution-status-viewer__updated-at {
     color: white !important ;
 }
-.indicator_color_grey {
-    background: rgb(60 60 60) !important;
-}
+/* /sidepanel */
 .contest-logs{
     background: #2a2a2a !important;
 }
 .Sideblock_theme_normal .Sideblock-Content {
     background: #2a2a2a !important;
 }
-.Link_view_lyceum.Link_theme_normal {
+/* /chatblock */
+:root{
+    --color-comments-form-background: #191919 !important;
+    --color-filter-clear-label-background: #242424 !important;
+    --color-ticker: #007acc !important;
+    --color-comments-own-background: #2a4b8d !important;
+}
+.comments__user-icon{
+    filter: invert(1) !important;
+}
+/* mssngr */
+.ya-chat-button_theme_light .ya-chat-button__container {
+    background-color: #323232 !important;
+}
+.ya-chat-button__text-container {
     color: white !important;
 }
-/* :root {
-    --background-color: #000 !important; 
-    --text-color: #abb2bf !important;
-  }
-body.utilityfocus.Theme.Theme_color_platform-blue{
-    background: #222 !important;
-}    */
