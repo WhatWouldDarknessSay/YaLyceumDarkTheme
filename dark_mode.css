@@ -65,6 +65,7 @@ body{
 /* statuscolors */
 :root{
     --color-status-active: #63c1ff !important;
+    --color-background-active: #63c1ff !important;
     --color-indicator-dot-red: #f85149 !important;
     --color-indicator-red: #f85149  !important;
     --color-header-rework:  #f85149 !important;
@@ -137,6 +138,9 @@ span.icon.icon_type_upload.icon_size_m {
 }
 .solution-status-viewer_status_accepted-after-deadline .solution-status-viewer__status-text, .solution-status-viewer_status_accepted-after-deadline .solution-status-viewer__updated-at, .solution-status-viewer_status_accepted .solution-status-viewer__status-text, .solution-status-viewer_status_accepted .solution-status-viewer__updated-at, .solution-status-viewer_status_rework .solution-status-viewer__status-text, .solution-status-viewer_status_rework .solution-status-viewer__updated-at {
     color: white !important ;
+}
+.y5bb67--submission__warning {
+    color: black !important;
 }
 /* /sidepanel */
 .contest-logs{
